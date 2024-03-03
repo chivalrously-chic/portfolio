@@ -1,0 +1,104 @@
+* {
+    color: white !important;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+header {
+    position: relative;
+    padding: 20px;
+    background: url('headers-aesthetic-background-Fav.jpg') no-repeat center center/cover;
+    width: 1479px; 
+    height: 300px; 
+    background-size: 100%;
+    background-color: black;
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    background-image: url("flowers-flower-wallpaper-preview.jpg");
+    background-size: cover; 
+    background-position: center; 
+}
+
+section {
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: left;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+a {
+    color: #007bff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+section:nth-child(odd) {
+    background-color: #f5f5f5;
+}
+
+h2 {
+    border-bottom: 2px solid #ccc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+    header, nav ul {
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px;
+    }
+}
